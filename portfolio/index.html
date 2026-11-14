@@ -208,6 +208,168 @@ a:hover{transition:color .18s ease}
  .communitybox{border-radius:18px;padding:23px 17px}
 }
 
+
+/* Navy portfolio theme: consistent contrast, Bootstrap-like components */
+:root{
+ --ink:#eaf2ff;--muted:#b7c7dc;--paper:#071426;--line:#29415e;
+ --green:#78baff;--green-dark:#3b8bd6;--soft:#102844;
+}
+html{scroll-padding-top:94px}
+body{
+ color:#eaf2ff;
+ background:radial-gradient(ellipse at 78% -8%,#1a416c 0%,#0d2541 34%,#08182c 72%,#061326 100%);
+ font-family:Arial,Helvetica,sans-serif;
+}
+h1,h2,h3,.brand{font-family:Arial,Helvetica,sans-serif}
+h1,h2{color:#f1f6ff;font-weight:700;letter-spacing:-.045em}
+h1 em,h2 em,.hero h1 em{color:#83c5ff;font-style:normal}
+p,.lede,.heading>p,.aboutbody p:not(.large),.skills p,.community p,.footer p{color:#b8c9df}
+.large{color:#e5efff}
+a{color:inherit}
+.nav{
+ position:sticky;top:0;z-index:50;height:74px;
+ background:rgba(6,19,36,.92);backdrop-filter:blur(16px);
+ border-bottom:1px solid #29415e;box-shadow:0 5px 20px rgba(0,0,0,.18)
+}
+.brand,.links,.links a{color:#dceaff}
+.brand b,.mark{color:#86c6ff}
+.mark{border-color:#426487;background:linear-gradient(145deg,#163452,#0c2038);border-radius:9px}
+.links a:hover,.txt:hover{color:#8dcaff}
+.navcta{
+ color:#d8ebff;border:1px solid #47749e;border-radius:999px;
+ background:linear-gradient(180deg,#173b60,#102b49);
+ box-shadow:0 2px 0 #07182a,0 5px 12px #020a1490;padding:9px 16px
+}
+.menu-toggle{color:#e5f1ff;background:#102844;border:1px solid #365779;border-radius:10px}
+.eyebrow{color:#8cc8ff}.eyebrow:before{background:#65b5ff}
+.hero{background:linear-gradient(115deg,rgba(14,43,72,.18),rgba(25,68,108,.12),transparent)}
+.hero h1{color:#f4f8ff}
+.meta,.bottom{color:#a9bdd6}
+.dot{color:#7dbdff}
+.art img{border:5px solid #e5f1ff;box-shadow:0 22px 65px #020914b8}
+.orbit{border-color:#426b91}
+.float{background:#102b49;border:1px solid #365b7e;color:#d7e9fb;border-radius:12px;box-shadow:0 8px 22px #02091480}
+.f1 b{color:#8acaff}
+.metrics{border-color:#29415e}
+.metric{border-color:#29415e}
+.metric strong{color:#8acaff;font-family:Arial,Helvetica,sans-serif}
+.metric small{color:#b6c7dc}
+.band{background:linear-gradient(135deg,#0b1e34,#102b48 58%,#0a1a2e);border-color:#29415e}
+.timeline,.job,.edu,.cert,.articles,.article,.footerbottom{border-color:#2b4968}
+.job h3,.edu h3,.cert,.atitle{color:#eaf3ff}
+.date,.year,.cert span,.rank{color:#8bc8ff}
+.company{color:#d2e0ef}.company span,.job ul,.edu p,.rank span{color:#b2c4d9}
+.tags span,.skilltags span{
+ border:1px solid #355779;border-radius:999px;color:#d4e8fb;
+ background:linear-gradient(180deg,#173653,#102943);box-shadow:0 2px 0 #061426
+}
+.projects{gap:18px}
+.card{
+ color:#eaf3ff;border:1px solid #2e4d6d;border-radius:18px;
+ background:linear-gradient(155deg,#153451,#0d233b);
+ box-shadow:0 4px 0 #061426,0 12px 28px #02091460,inset 0 1px 0 #ffffff0d;
+ transition:transform .2s ease,box-shadow .2s ease
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 7px 0 #061426,0 18px 32px #02091480}
+.card:first-child{background:linear-gradient(145deg,#19466d,#102943 82%)}
+.card h3{color:#f1f7ff;font-weight:700}
+.card p{color:#b9cbe0}
+.index,.note,.anum,.atype{color:#9eb7d2}
+.symbol{color:#8acaff}
+.cardfoot{border-color:#345473;color:#8bc8ff}
+.skills{background:linear-gradient(120deg,#102b49,#0b1d33);border-color:#294766}
+.skilltags span{background:linear-gradient(180deg,#173653,#102943)}
+.pub-feature{
+ border:1px solid #42698d;border-radius:20px;
+ background:linear-gradient(125deg,#173e64,#102a47 65%,#0d223b);
+ box-shadow:0 4px 0 #061426,0 14px 32px #02091470
+}
+.pub-feature-icon{background:linear-gradient(145deg,#2b78b8,#17456e);box-shadow:0 4px 0 #08203a,0 9px 18px #02091470}
+.pub-kicker{color:#8acaff}
+.pub-feature h3{color:#f1f7ff}.pub-feature p{color:#c0d0e2}
+.pub-feature a,.pub-footer>a{color:#91ceff}
+.pub-category{
+ border:1px solid #2c4b6b;border-radius:18px;
+ background:linear-gradient(155deg,#112c49,#0a1d33);
+ box-shadow:0 4px 0 #061426,0 10px 22px #02091455
+}
+.pub-category-head{background:linear-gradient(110deg,#173b5e,#102943);border-color:#2c4b6b}
+.pub-cat-icon{background:linear-gradient(145deg,#1c4c76,#12304e);border:1px solid #42698d;box-shadow:0 3px 0 #07182a}
+.pub-category-head h3{color:#f0f6ff}.pub-category-head p{color:#b7cbe0}
+.pub-item{border-color:#2b4968}
+.pub-item:hover{background:rgba(64,123,174,.12);border-radius:10px}
+.pub-rank{color:#8acaff}
+.pub-item-icon{background:linear-gradient(145deg,#19446b,#102b48);border:1px solid #365c80;box-shadow:0 2px 0 #061426}
+.pub-item-main b{color:#eaf3ff}
+.pub-item-main small{color:#a9bfd7}
+.pub-arrow{color:#8bc8ff}
+.pub-footer{border-color:#2b4968}
+.pub-footer small{color:#a5bad2}
+.edu,.cert{border-color:#2b4968}
+.rank{color:#8bcaff}
+.communitybox{
+ background:linear-gradient(135deg,#12395e,#0d2743 62%,#10243d);
+ border:1px solid #365b7d;border-radius:22px;
+ box-shadow:0 4px 0 #061426,0 13px 28px #02091465
+}
+.communitylinks{border-color:#365779}
+.communitylinks a{border-color:#365779;color:#8bcaff}
+.communitylinks b{color:#f0f6ff}.communitylinks small{color:#b1c5dc}
+.life-card{
+ border:1px solid #2e4e6f;border-radius:18px;
+ background:linear-gradient(150deg,#153653,#0d223a);
+ box-shadow:0 4px 0 #061426,0 10px 22px #02091455;
+}
+.life-card:hover{border-color:#75baff;box-shadow:0 7px 0 #061426,0 16px 28px #02091475}
+.life-icon{background:linear-gradient(145deg,#1d527e,#12314f);border:1px solid #3c668b;box-shadow:0 3px 0 #061426}
+.life-card h3{color:#eef6ff}.life-card p{color:#b4c8df}
+.footerbottom{border-color:#29415e;color:#a8bdd5}
+.txt,.inline-links,.center{color:#8bcaff}
+.btn{
+ border-radius:10px;padding:12px 18px;
+ box-shadow:0 3px 0 rgba(0,0,0,.3),0 8px 18px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.16);
+ transition:transform .18s ease,box-shadow .18s ease,filter .18s ease
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 5px 0 rgba(0,0,0,.28),0 12px 22px rgba(0,0,0,.25)}
+.btn:active{transform:translateY(1px);box-shadow:0 1px 0 rgba(0,0,0,.3),0 3px 8px rgba(0,0,0,.18)}
+.primary{background:linear-gradient(180deg,#398bd0,#2166a6);color:#fff}
+.primary:hover{background:linear-gradient(180deg,#56a6e8,#2876b8)}
+.secondary{background:linear-gradient(180deg,#173b5e,#102943);border:1px solid #42698d;color:#dcecff}
+a:focus-visible,button:focus-visible{outline:3px solid #8bcaff;outline-offset:4px}
+::selection{background:#285a85;color:#fff}
+@media(max-width:600px){
+ .nav{background:rgba(6,19,36,.97)}
+ .links{background:#0d223a;border-color:#345779;box-shadow:0 14px 24px #02091499}
+ .links a{color:#e4efff}
+}
+
+
+/* Compact fixed contact card */
+.quick-contact{
+ position:fixed;right:22px;bottom:22px;z-index:60;width:286px;
+ padding:13px;border:1px solid #3a5f81;border-radius:16px;
+ background:linear-gradient(155deg,rgba(18,48,77,.97),rgba(8,25,44,.98));
+ box-shadow:0 12px 34px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.08);
+ backdrop-filter:blur(14px)
+}
+.quick-head{display:flex;align-items:center;gap:8px;padding:2px 5px 10px;color:#9dcfff;font-size:9px;font-weight:800;letter-spacing:.15em}
+.quick-pulse{width:7px;height:7px;border-radius:50%;background:#70d6a1;box-shadow:0 0 0 4px #70d6a122}
+.quick-link{display:grid;grid-template-columns:34px 1fr 14px;gap:10px;align-items:center;padding:10px 7px;border-top:1px solid #294966;transition:background .18s ease,transform .18s ease}
+.quick-link:hover{background:#ffffff0b;transform:translateX(-2px)}
+.quick-icon{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;background:linear-gradient(145deg,#245782,#153753);border:1px solid #47749b;color:#e7f4ff;font-size:16px;font-weight:700}
+.quick-in{font-family:Arial,sans-serif;font-size:15px}
+.quick-link b{display:block;color:#f0f6ff;font-size:11px;line-height:1.35}
+.quick-link small{display:block;color:#a9c0d8;font-size:9px;line-height:1.4;margin-top:3px}
+.quick-arrow{color:#8dcaff;font-size:15px;text-align:right}
+@media(max-width:900px){.quick-contact{right:14px;bottom:14px;width:260px}}
+@media(max-width:600px){
+ .quick-contact{right:10px;bottom:10px;width:calc(100% - 20px);padding:8px 10px;border-radius:13px}
+ .quick-head{padding:1px 5px 5px;font-size:8px}
+ .quick-link{grid-template-columns:28px 1fr 12px;gap:8px;padding:7px 5px}
+ .quick-icon{width:27px;height:27px;border-radius:8px;font-size:13px}
+ .quick-link b{font-size:10px}.quick-link small{font-size:8px}
+}
+
 </style>
 </head>
 <body>
@@ -259,6 +421,20 @@ a:hover{transition:color .18s ease}
 <section class="section shell community"><div class="communitybox"><div><div class="eyebrow">08 / COMMUNITY & CREATION</div><h2>Knowledge grows<br>when it is <em>shared.</em></h2><p>Beyond security engineering, I contribute to community initiatives, publish practical AI security writing, create technical learning content and explore teaching through music.</p></div><div class="communitylinks"><a href="https://www.senafoundation.org/about-us-advanced/" target="_blank" rel="noopener"><span><b>SENA Foundation</b><small>Volunteer · Community initiatives</small></span>↗</a><a href="https://aisec.university/blog/most-secure-ai-feature-no-ai" target="_blank" rel="noopener"><span><b>AI Security Community</b><small>Published: The Most Secure AI Feature? No AI</small></span>↗</a><a href="https://www.youtube.com/channel/UCVd3kFC2y385jd11KKJuH2g" target="_blank" rel="noopener"><span><b>Technical YouTube</b><small>Cybersecurity & technology content</small></span>↗</a><a href="https://www.youtube.com/@Bhakt1Verse/playlists" target="_blank" rel="noopener"><span><b>Bhakt1Verse</b><small>Music teaching & devotional playlists</small></span>↗</a><a href="https://topmate.io/gajanantayde" target="_blank" rel="noopener"><span><b>Topmate</b><small>Connect and learn together</small></span>↗</a></div></div></section>
 <section class="section shell" id="beyond-security"><div class="heading"><div class="eyebrow">09 / BEYOND SECURITY</div><h2>Different instruments.<br><em>One curious mind.</em></h2><p>Some of my favourite ways to learn, create and share — from music practice to teaching and video content.</p></div><div class="life-grid"><a class="life-card" href="https://www.youtube.com/@Bhakt1Verse/playlists" target="_blank" rel="noopener"><div class="life-icon" aria-hidden="true">🪗</div><h3>Harmonium &amp; devotional music</h3><p>Learning, practising and sharing devotional music through Bhakt1Verse.</p></a><a class="life-card" href="https://www.youtube.com/@Bhakt1Verse/playlists" target="_blank" rel="noopener"><div class="life-icon" aria-hidden="true">🎼</div><h3>Music &amp; teaching</h3><p>Notation, melody and structured learning — making music easier to understand and practise.</p></a><a class="life-card" href="https://www.youtube.com/channel/UCVd3kFC2y385jd11KKJuH2g" target="_blank" rel="noopener"><div class="life-icon" aria-hidden="true">▶</div><h3>Cybersecurity YouTube</h3><p>Explaining security concepts, incidents and technical ideas through stories and practical examples.</p></a></div></section></main>
 <footer class="footer shell" id="contact"><div class="eyebrow">10 / CONTACT</div><div class="footermain"><div><h2>Let’s make systems<br><em>more resilient.</em></h2></div><div><p>For professional conversations, collaboration and knowledge exchange.</p><a class="btn primary" href="https://www.linkedin.com/in/gajanantayde/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a><a class="txt" href="https://topmate.io/gajanantayde" target="_blank" rel="noopener">Find me on Topmate ↗</a></div></div><div class="footerbottom"><a class="brand" href="#top"><span class="mark">GT</span><span>GAJANAN <b>TAYDE</b></span></a><span>© 2026 Gajanan Tayde</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+<aside class="quick-contact" aria-label="Quick ways to connect">
+ <div class="quick-head"><span class="quick-pulse"></span><span>LET’S CONNECT</span></div>
+ <a class="quick-link quick-article" href="https://medium.com/towards-artificial-intelligence/the-ai-agent-that-was-supposed-to-take-a-cybersecurity-test-ended-up-hacking-hugging-face-655c8df8fa2b" target="_blank" rel="noopener">
+  <span class="quick-icon">✎</span><span><b>Read my latest article</b><small>AI agent security · Medium</small></span><span class="quick-arrow">↗</span>
+ </a>
+ <a class="quick-link" href="https://www.linkedin.com/in/gajanantayde/" target="_blank" rel="noopener">
+  <span class="quick-icon quick-in">in</span><span><b>Chat with Gajanan</b><small>Message me on LinkedIn</small></span><span class="quick-arrow">↗</span>
+ </a>
+ <a class="quick-link quick-topmate" href="https://topmate.io/gajanantayde" target="_blank" rel="noopener">
+  <span class="quick-icon">☕</span><span><b>1:1 conversation</b><small>Explore a free chat on Topmate</small></span><span class="quick-arrow">↗</span>
+ </a>
+</aside>
+
 <script>
 (() => {
   const toggle = document.querySelector('.menu-toggle');
