@@ -24,6 +24,14 @@ body{background:radial-gradient(ellipse at 75% 0%,#173b65 0%,#0a1b31 38%,#071426
 .arr{color:#8cb7e4}.communitybox{background:linear-gradient(135deg,#12375b,#0e2743 58%,#12233a);border-color:#345779}.communitylinks,.communitylinks a{border-color:#345779}.communitylinks a{color:#8bc9ff}.communitylinks b{color:#edf6ff}.communitylinks small{color:#a9bed7}.footerbottom{color:#a1b5ce}
 .life-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}.life-card{border:1px solid #2d4e70;border-radius:12px;padding:22px;background:linear-gradient(145deg,#112b49,#0b1e34);min-height:175px;transition:transform .2s,border-color .2s}.life-card:hover{transform:translateY(-4px);border-color:#76bfff}.life-icon{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#1c5688,#15314e);font-size:23px;margin-bottom:16px}.life-card h3{font-size:15px;margin:0 0 6px;color:#eef6ff}.life-card p{font-size:11px;line-height:1.7;color:#afc3dc;margin:0}
 @media(max-width:600px){.life-grid{grid-template-columns:1fr}.nav{background:rgba(7,20,38,.9)}.links{background:#0d223a;border-color:#345779}.links a{color:#e1edfc}}
+
+/* Compact visual markers for the technical disciplines */
+.skilltags span{display:inline-flex;align-items:center;gap:8px;border-radius:7px;padding:9px 12px;font-size:10px;letter-spacing:.025em}
+.skilltags span:before{font-size:15px;line-height:1}
+.skilltags span:nth-child(1):before{content:"🛡️"}.skilltags span:nth-child(2):before{content:"🤖"}.skilltags span:nth-child(3):before{content:"🧪"}.skilltags span:nth-child(4):before{content:"🗄️"}.skilltags span:nth-child(5):before{content:"🔗"}.skilltags span:nth-child(6):before{content:"⚔️"}.skilltags span:nth-child(7):before{content:"🗺️"}.skilltags span:nth-child(8):before{content:"📋"}.skilltags span:nth-child(9):before{content:"🔎"}.skilltags span:nth-child(10):before{content:"🧰"}.skilltags span:nth-child(11):before{content:"📱"}.skilltags span:nth-child(12):before{content:"🎯"}.skilltags span:nth-child(13):before{content:"🧬"}.skilltags span:nth-child(14):before{content:"🧪"}.skilltags span:nth-child(15):before{content:"🧭"}.skilltags span:nth-child(16):before{content:"🛠️"}.skilltags span:nth-child(17):before{content:"🧱"}.skilltags span:nth-child(18):before{content:"🧠"}.skilltags span:nth-child(19):before{content:"🕷️"}.skilltags span:nth-child(20):before{content:"⌨️"}.skilltags span:nth-child(21):before{content:"☁️"}.skilltags span:nth-child(22):before{content:"📐"}.skilltags span:nth-child(23):before{content:"🏛️"}
+.life-card:nth-child(3) .life-icon{background:#e6212a;color:#fff;border-radius:12px;font-size:20px;font-weight:800}
+.life-card:nth-child(3) .life-icon:after{content:"";position:absolute}
+
 </style>
 </head>
 <body>
